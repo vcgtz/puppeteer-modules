@@ -5,6 +5,7 @@ class Module {
 
   run() {
     console.log(this.moduleName);
+    console.log(`Estas ejecutando el ${this.moduleName}!`);
   }
 }
 

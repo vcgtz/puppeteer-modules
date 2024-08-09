@@ -1,11 +1,12 @@
 class Module {
-    moduleName = 'module_02';
+  moduleName = 'module_02';
 
-    constructor() {}
+  constructor() {}
 
-    run() {
-      console.log(this.moduleName);
-    }
+  run() {
+    console.log(this.moduleName);
+    console.log(`Sabes que ahora estas ejecutando el ${this.moduleName}?`);
   }
+}
 
-  module.exports = Module;
+module.exports = Module;
